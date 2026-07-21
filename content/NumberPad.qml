@@ -60,7 +60,7 @@ Item {
             columnSpacing: controller.spacing
             rowSpacing: controller.spacing
 
-            // first row
+            // первый (верхний) ряд кнопок
             LetterButton {
                 text: "Q"
             }
@@ -97,7 +97,7 @@ Item {
                 accentColor: controller.backspaceRedColor
             }
 
-            // second row
+            // второй ряд
             LetterButton {
                 text: "A"
             }
@@ -126,8 +126,8 @@ Item {
                 text: "L"
             }
             OperatorButton {
-                text: "\u21b7"  // clockwise top semicircle arrow
-                //text: "\u21b6"  // anticlockwise top semicircle arrow
+                text: "\u21b7"  // clockwise top semicircle arrow - полукруглая стрелка по часовой стрелке на кнопке
+                //text: "\u21b6"  // anticlockwise top semicircle arrow - полукруглая стрелка против часовой стрелки на кнопке
                 implicitWidth: 38
             }
             BackspaceButton {
@@ -137,7 +137,7 @@ Item {
                 }
             }
 
-            // third row
+            // третий ряд
             LetterButton {
                 text: "Z"
             }
@@ -172,39 +172,39 @@ Item {
                 //Layout.rowSpan: 2
             }
 
-            //forth row
+            //четвертый ряд
             LetterButton {
                 text: "("
             }
             LetterButton {
                 text: ")"
             }
-            // https://www.compart.com/en/unicode/search?q=bracket#characters
-            // vertical left coner bracket
+            // https://www.compart.com/en/unicode/search?q=bracket#characters - отсюда брал коды нестандартных значков на кнопки
+            // vertical left coner bracket - вертикальная квадратная левая скобка
             LetterButton {
                 fontSize: 16
                 text: "\ufe41"
             }
-            // up arrow
+            // up arrow - стрелка вверх
             LetterButton {
                 //text: "\u2bb9"
                 //text: "\u2303"
                 fontSize: 16
                 text: "\u02c4"
             }
-            // down arrow
+            // down arrow - стрелка вниз
             LetterButton {
                 //text: "\u2304"
                 fontSize: 16
                 text: "\u02c5"
             }
-            // left arrow
+            // left arrow - стрелка влево
             LetterButton {
                 text: "\u2b95"
                 //text: "\u2192"
                 //text: "\u27f9"
             }
-            // left right arrow
+            // left right arrow - двусторонняя горизонтальная стрелка
             LetterButton {
                 text: "\u2b0c"
             }

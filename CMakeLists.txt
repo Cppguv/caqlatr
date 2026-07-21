@@ -54,7 +54,7 @@ add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy
         ${CMAKE_CURRENT_SOURCE_DIR}/Backend.py
         $<TARGET_FILE_DIR:${PROJECT_NAME}>/Backend.py
-    COMMENT "Copying Python backend..."
+    COMMENT "Копирование бэкенда на Python..."
 )
 
 install(TARGETS calqlatr

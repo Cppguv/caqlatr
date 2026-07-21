@@ -50,7 +50,7 @@ Item {
             }
 
             OperatorButton {
-                text: "\u21b6"  // anticlockwise top semicircle arrow
+                text: "\u21b6"  // anticlockwise top semicircle arrow - полукруглая стрелка против часовой стрелки на кнопке
                 implicitWidth: 38
             }
         }

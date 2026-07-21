@@ -40,7 +40,7 @@ public:
             return;
         }
 
-        // Prepare JSON input
+        // Готовим JSON с входными данными
         QJsonObject request;
         request["inputPremises"] = inputPremises;
         request["inputGoal"] = inputGoal;
@@ -86,7 +86,7 @@ public:
 //         QJsonDocument doc(request);
 //         QByteArray data = doc.toJson();
 
-//         // Start Python process
+//         // Начало Python процесса
 //         QString pythonScript = QCoreApplication::applicationDirPath() + "/backend.py";
 
 // #ifdef Q_OS_WIN

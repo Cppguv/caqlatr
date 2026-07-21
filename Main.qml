@@ -63,7 +63,7 @@ Controls.ApplicationWindow {
 
     FileDialog {
         id: fileOpenDialog
-        title: "Select an image file"
+        title: "Выбор image-файла"
         folder: StandardPaths.writableLocation(StandardPaths.DocumentsLocation)
         nameFilters: ["Image files (*.png *.jpeg *.jpg)",]
         onAccepted: {
